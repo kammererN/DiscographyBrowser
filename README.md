@@ -17,13 +17,13 @@ to search for an artist and view their albums. Key functionalities include:
   - Upon clicking on the album’s artwork (per Spotify’s Developer agreement
     mandate), the user is brought to the Spotify page for that album.
 
-##Dev Process
+## Dev Process
 This project was developed using Visual Studio Code as the code editor. The application
 utilizes Node Project Manager, as well as React.js, React hooks (useState, useEffect),
 React-bootstrap components, and Bootstrap CSS. All Spotify API calls were written manually,
 without the use of wrapper libraries.
 
-##Testing
+## Testing
 While I wish I could say that I followed best-practices and used a unit testing
 suite such as Jest, that simply was not the case. This project had significant time constraints, and
 thus testing was limited to manual tests with console logging. Errors are handled via console
