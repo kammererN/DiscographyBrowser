@@ -1,6 +1,6 @@
 # DiscographyBrowser
 
-[!DiscoBrowser app screenshot](.readme/readme-app-screenshot.png)
+![DiscoBrowser app screenshot](.readme/readme-app-screenshot.png)
 
 DiscoBrowser is a React.js application that interfaces with the Spotify API to allow users
 to search for an artist and view their albums. Key functionalities include:
