@@ -1,0 +1,31 @@
+root {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+}
+
+.Header {
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Footer {
+  background-color: #282c34;
+  min-height: 03vh;
+}
+
+footer {
+  min-height: 03vh;
+}
+
+.card {
+  height: 300px; /* Example height, you can adjust as needed */
+}
