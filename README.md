@@ -1,21 +1,21 @@
 # DiscographyBrowser
 DiscoBrowser is a React.js application that interfaces with the Spotify API to allow users
 to search for an artist and view their albums. Key functionalities include:
-- Authentication
-- Client credentials stored in a secure .env file are read into the React application,
-  which then utilizes them to authenticate with the Spotify API, fetching an access
-  token for further requests.
-- Searching for an artist
-- Users can input an artist's name in a search bar, and the application fetches the
-  artist's ID.
-- Displaying albums
-- Once the artist's ID is retrieved, the application fetches all the albums related to
-  that artist and displays them in a grid format using Bootstrap cards.
-- Within the card, the album artwork is displayed, as well as the album’s title, # of
-  tracks, and release date.
-- Navigation to Spotify
-- Upon clicking on the album’s artwork (per Spotify’s Developer agreement
-  mandate), the user is brought to the Spotify page for that album.
+- *Authentication*
+  - Client credentials stored in a secure .env file are read into the React application,
+    which then utilizes them to authenticate with the Spotify API, fetching an access
+    token for further requests.
+- *Searching for an artist*
+  - Users can input an artist's name in a search bar, and the application fetches the
+    artist's ID.
+- *Displaying albums*
+  - Once the artist's ID is retrieved, the application fetches all the albums related to
+    that artist and displays them in a grid format using Bootstrap cards.
+  - Within the card, the album artwork is displayed, as well as the album’s title, # of
+    tracks, and release date.
+- *Navigation to Spotify*
+  - Upon clicking on the album’s artwork (per Spotify’s Developer agreement
+    mandate), the user is brought to the Spotify page for that album.
 
 ##Dev Process
 This project was developed using Visual Studio Code as the code editor. The application
