@@ -2,8 +2,8 @@
 
 ![DiscoBrowser app screenshot](.readme/readme-app-screenshot.png)
 
-DiscoBrowser is a React.js application that interfaces with the Spotify API to allow users
-to search for an artist and view their albums. Key functionalities include:
+DiscoBrowser is a React application that interfaces with the Spotify API, allowing users
+to search for an artist and view their albums in a concise UI. Key functionalities include:
 - **Authentication**
   - Client credentials stored in a secure .env file are read into the React application,
     which then utilizes them to authenticate with the Spotify API, fetching an access
